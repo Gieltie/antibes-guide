@@ -1,0 +1,120 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+*/
+
+/*---Basics---*/
+
+@font-face {
+    font-family: vacation;
+    src: url(Fonts/Vacation\ Planner.ttf),
+         url(Fonts/Vacation\ Planner.otf);
+}
+
+body {
+    margin: 0 auto;
+    text-align: center;
+    width: 720px;
+}
+
+
+h1, h2, h3, h4, p {
+    font-family: vacation, Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0 0 3px #E63946;
+    letter-spacing: 1px;
+    color: #F1FAEE;
+}
+
+p {
+    color: black;
+}
+
+/*---Hero Section---*/
+
+#hero_section {
+    background-image: url(https://www.antibesjuanlespins.com/sites/antibes/files/styles/ratio_16_9/public/page/img9799.jpg?itok=epBKK1bh);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 343px;
+}
+
+#hero-header {
+    padding-top: 119px;
+    margin-top: 0;
+}
+
+#hero-text {
+    padding-top: 16px;
+}
+
+/*---Activities Section---*/
+
+#activities_section {
+    margin-top: 0;
+    background-color: #F1FAEE;
+}
+
+#activities_header {
+    margin: 0;
+    padding-top: 39px;
+}
+
+#activities_container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 54px;
+}
+
+.container {
+    width: 200px;
+}
+
+.container_image {
+    width: 100px;
+    height: 70px;
+    border-radius: 50%;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.container_image:hover {
+    width: 199px;
+    height: 140px;
+}
+
+/*---Guide Section---*/
+
+#guide_section {
+    width: 720px;
+    height: 394px;
+    left: 0px;
+    top: 721px;
+}
+
+#card {
+    width: 400px;
+    height: 294px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    background: #A8DADC;
+    border-radius: 10px;
+    border: 1px solid #1D3557;
+    box-shadow: 6px 6px 5px #1D3557;
+}
+
+#card_img {
+    background-image: url(images/sentier-tire-poil.jpeg);
+    background-size: cover;
+    width: 180px;
+    height: 200px;
+    margin: auto 0 auto 13px;
+    border: 2px solid #1D3557;
+}
+
+#card_text {
+    margin: auto 20px;
+}
